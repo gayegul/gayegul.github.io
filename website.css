@@ -12,11 +12,12 @@ ul {
   list-style-type: none;
 }
 
-li {
+.navItems {
   display: inline-block;
   text-align: center;
   padding-right: 15px;
   padding-left: 15px;
+  color: black;
 }
 
 .name {
@@ -31,7 +32,34 @@ li {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.icon-octoface, .icon-linkedin, .icon-social-twitter, .icon-mail, .icon-call-phone {
-  height: 50px;
-  width: 50px;
+.main {
+  /*height: 150px;
+  font-style: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-size: 15px;*/
+  margin-left: 225px;
+  width: 600px;
+  /*padding: 80px 120px;
+  padding-left: 170px;
+  text-align: justify;*/
+}
+
+canvas {
+  border: 1px solid #ccc;
+}
+
+.socialMediaIcons {
+  color: black;
+  padding-left: 225px;
+  padding-top: 20px;
+}
+
+.icon-octoface,
+.icon-linkedin,
+.icon-social-twitter,
+.icon-instagram,
+.icon-mail,
+.icon-call-phone {
+  padding-left: 100px;
+  display: inline-block;
+  position: center;
 }
