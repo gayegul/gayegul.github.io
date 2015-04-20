@@ -32,15 +32,6 @@ ul {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-.main {
-  margin-left: 225px;
-  width: 600px;
-}
-
-canvas {
-  border: 1px solid #ccc;
-}
-
 .socialMediaIcons {
   color: black;
   padding-left: 225px;
@@ -53,7 +44,28 @@ canvas {
 .icon-instagram,
 .icon-mail,
 .icon-call-phone {
-  padding-left: 100px;
+  padding-left: 105px;
+  padding-top: 50px;
   display: inline-block;
   position: center;
+}
+
+.main {
+  margin-left: 350px;
+  margin-top: 50px;
+  width: 600px;
+  border: solid gray;
+}
+
+.smallBox {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  background-color: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+.smallBox:hover {
+  box-shadow: 0 0 3px white;
 }
