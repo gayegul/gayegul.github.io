@@ -1,7 +1,7 @@
 'use strict';
 
-var generateBox = function() {
-  for(var i = 0; i < 55; i++) {
+var generateBox = setTimeout(function() {
+  for(var i = 0; i < 65; i++) {
     var newBox = document.createElement("div");
     newBox.className = "smallBox";
     document.getElementById("bigBox").appendChild(newBox);
@@ -10,4 +10,4 @@ var generateBox = function() {
       this.style.backgroundColor = newColor;
     }
   }
-}
+}, 0);
