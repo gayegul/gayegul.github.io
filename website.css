@@ -36,11 +36,11 @@ ul {
 }
 
 .navItem:hover::before {
-  content: '</';
+  content: '<';
 }
 
 .navItem:hover::after {
-  content: '>';
+  content: '/>';
 }
 
 .name {
