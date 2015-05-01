@@ -22,7 +22,7 @@ ul {
   -webkit-padding-start: 0;
 }
 
-.navItems {
+.navItem {
   display: inline-block;
   text-align: center;
   padding-right: 15px;
@@ -30,8 +30,17 @@ ul {
   color: black;
 }
 
-.navItems:hover {
-  display: ;
+.navItem:hover {
+  color: gray;
+  font-size:20px;
+}
+
+.navItem:hover::before {
+  content: '</';
+}
+
+.navItem:hover::after {
+  content: '>';
 }
 
 .name {
@@ -74,4 +83,11 @@ ul {
 
 .smallBox:hover {
   box-shadow: 0 0 3px white;
+}
+
+.active {
+  font-size: 80px;
+  background-color: red;
+  color: blue;
+
 }
