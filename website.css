@@ -1,20 +1,37 @@
 .nav {
   margin: auto;
-  width: 800px;
   padding: 20px 0 20px;
   text-align: center;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
-#bigBox {
-    margin: auto;
-    width: 800px;
+#container {
+  width: 800px;
+  margin: auto;
 }
 
-#content {
+#bigBox {
+  margin: auto;
+}
+
+#pitch {
   text-align: center;
   font-size: 30px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.content {
+  width: 600px;
+  margin-left: 100px;
+  text-align: justify;
+  margin-top: 50px;
+  font-family: "Lucida Console", Monaco, monospace sans-serif;
+  word-spacing: 2px;
+  font-size: 11pt;
+}
+
+#self {
+  margin: 0 0 30px 30px;
 }
 
 ul {
@@ -30,9 +47,19 @@ ul {
   color: black;
 }
 
-.navItem:hover {
-  color: gray;
-  font-size:20px;
+.navItem a {
+  text-decoration: none;
+  color: black;
+}
+
+.navItem::before {
+  font-family: monospace;
+  content: '\00a0';
+}
+
+.navItem::after {
+  font-family: monospace;
+  content: '\00a0\00a0';
 }
 
 .navItem:hover::before {
@@ -46,7 +73,6 @@ ul {
 .name {
   margin: auto;
   font-size: 40px;
-  width: 800px;
   border-bottom: solid 1px;
   border-bottom-right-radius: 2em;
   border-bottom-left-radius: 2em;
@@ -57,8 +83,7 @@ ul {
 
 .socialMediaIcons {
   margin: auto;
-  width: 800px;
-  padding: 0;
+  margin-top: 30px;
 }
 
 .icon-octoface,
@@ -68,8 +93,9 @@ ul {
 .icon-mail,
 .icon-call-phone {
   padding-left: 100px;
-  padding-top: 20px;
+  padding-top: 30px;
   display: inline-block;
+  color: black;
 }
 
 .smallBox {
@@ -89,5 +115,4 @@ ul {
   font-size: 80px;
   background-color: red;
   color: blue;
-
 }
