@@ -23,7 +23,7 @@
 .content {
   width: 600px;
   margin-left: 100px;
-  text-align: justify;
+  text-align: left;
   margin-top: 50px;
   font-family: "Lucida Console", Monaco, monospace sans-serif;
   word-spacing: 2px;
