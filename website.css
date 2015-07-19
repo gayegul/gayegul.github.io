@@ -122,3 +122,14 @@ ul {
   background-color: red;
   color: blue;
 }
+
+.blog1 {
+  width: 600px;
+  margin: auto;
+  text-align: justify;
+}
+
+#studying {
+  display: block;
+  margin: auto;
+}
