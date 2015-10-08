@@ -33,6 +33,27 @@ body {
   font-size: 11pt;
   display: block;
 }
+.projects {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  font-family: "Lucida Console", Monaco, monospace sans-serif;
+  word-spacing: 2px;
+  font-size: 11pt;
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.project1, .project2 {
+  margin: 10px;
+  margin-bottom: 100px;
+}
+#instaTV, #dareToPair {
+  display: block;
+  margin: 0 auto;
+}
 #self {
   margin: 0 0 30px 30px;
 }
@@ -117,6 +138,7 @@ ul {
   background-color: white;
   color: black;
   padding-bottom: 20px;
+  font-family: "Lucida Console", Monaco, monospace sans-serif;
 }
 .blog1, .blog2, .blog3, .blog4, .blog5 {
   width: 600px;
@@ -127,6 +149,12 @@ ul {
   display: block;
   margin: auto;
 }
+#summary {
+  margin: 50px;
+}
 .resume {
-  text-align: center;
+  width: 100%;
+  text-align: left;
+  margin-left: 100px;
+  font-family: "Lucida Console", Monaco, monospace sans-serif;
 }
