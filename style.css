@@ -24,13 +24,14 @@ body {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 .content {
-  width: 600px;
+  width: 100%;
   margin-left: 100px;
   text-align: left;
   margin-top: 50px;
   font-family: "Lucida Console", Monaco, monospace sans-serif;
   word-spacing: 2px;
   font-size: 11pt;
+  display: block;
 }
 #self {
   margin: 0 0 30px 30px;
@@ -110,7 +111,14 @@ ul {
   background-color: red;
   color: blue;
 }
-.blog1 {
+.blogPosts {
+  width: 100%;
+  display: block;
+  background-color: white;
+  color: black;
+  padding-bottom: 20px;
+}
+.blog1, .blog2, .blog3, .blog4, .blog5 {
   width: 600px;
   margin: auto;
   text-align: justify;
@@ -118,4 +126,7 @@ ul {
 #studying {
   display: block;
   margin: auto;
+}
+.resume {
+  text-align: center;
 }
