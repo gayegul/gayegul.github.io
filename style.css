@@ -148,7 +148,7 @@ ul {
   background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 50%, rgba(219,219,219,1) 61%, rgba(254,254,254,1) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
 }
-.blog1, .blog2, .blog3, .blog4, .blog5 {
+.blog1, .blog2, .blog3, .blog4, .blog5, .blog6 {
   width: 600px;
   margin: auto;
   text-align: justify;
