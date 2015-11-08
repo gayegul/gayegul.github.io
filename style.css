@@ -163,7 +163,8 @@ ul {
 }
 #self {
   display: block;
-  margin-top: 40px;
+  margin-top: 5px;
+  width: 240px;
 }
 #summary {
   margin-top: 50px;
