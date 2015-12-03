@@ -1,3 +1,3 @@
 # personalWebsite
 
-Ever changing personal space for my resume, projects, blog posts and contact info.
+Ever changing personal space for my resume, side projects, blog posts and contact info.

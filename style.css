@@ -46,11 +46,11 @@ a {
   text-decoration: none;
   color: black;
 }
-.project1, .project2, .project3, .project4 {
+.project1, .project2, .project3, .project4, .project5 {
   margin: 10px;
   margin-bottom: 80px;
 }
-#instaTV, #dareToPair, #slidingPuzzle {
+#instaTV, #dareToPair, #slidingPuzzle, #freeFall, #repIt {
   display: block;
   margin: 0 auto;
 }
