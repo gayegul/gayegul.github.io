@@ -20,10 +20,6 @@ $(document).ready(function() {
     return "rgb(" + range1 + "," + range2 + "," + range3 + ")";
   }
 
-  // $(".smallBox").hover(function(element) {
-  //   $(this).removeClass().addClass(".smallBox:hover");
-  // });
-
   createBoxes();
   setInterval(assignBox, 200);
 });
