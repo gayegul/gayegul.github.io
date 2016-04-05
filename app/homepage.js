@@ -15,8 +15,8 @@ $(document).ready(function() {
 
   function assignColor() {
     var range1 = Math.floor(Math.random() * 50);
-    var range2 = Math.floor(100 + Math.random() * 256);
-    var range3 = Math.floor(100 + Math.random() * 256);
+    var range2 = Math.floor(100 + Math.random() * 156);
+    var range3 = Math.floor(100 + Math.random() * 156);
     return "rgb(" + range1 + "," + range2 + "," + range3 + ")";
   }
 
